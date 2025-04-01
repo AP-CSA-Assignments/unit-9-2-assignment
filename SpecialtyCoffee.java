@@ -21,10 +21,10 @@ public class SpecialtyCoffee extends Coffee
   }
 
   // Method override of Coffee getPrice
-  public int getPrice()
+  public double getPrice()
   {
     // we will edit in class
-    return 0;
+    return 0.0;
   }
 
   // Method override of Coffee toString
