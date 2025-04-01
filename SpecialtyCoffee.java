@@ -33,3 +33,11 @@ public class SpecialtyCoffee extends Coffee
     // we will edit in class
     return null;
   }
+
+  // print a message that compares the prices of a regular Coffee
+  // and a SpecialtyCoffee using both getPrice methods
+  public void printPriceComparison()
+  {
+
+  }
+}
