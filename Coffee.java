@@ -31,9 +31,9 @@ public class Coffee
     return size;
   }
 
-  public int getPrice()
+  public double getPrice()
   {
-    int price;
+    double price = 0;
     if (size.equals("extra large"))
       price = 470;
     else if (size.equals("large"))
