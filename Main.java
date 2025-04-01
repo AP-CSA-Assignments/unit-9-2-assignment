@@ -4,6 +4,11 @@ public class Main
 {
   public static void main(String[] args)
   {
-    // TODO: Create objects and test code here.
+
+    // Uncomment to test the Car classes
+    // CarTester.run();
+
+    // Uncomment to test the Company classes
+    // CompanyTester.run();
   }
 }
