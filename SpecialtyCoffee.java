@@ -1,0 +1,35 @@
+public class SpecialtyCoffee extends Coffee
+{
+  private String flavor;
+
+  public SpecialtyCoffee()
+  {
+    super();
+    flavor = "vanilla";
+  }
+
+  public SpecialtyCoffee(String type, String flavor)
+  {
+    super("small", false, 1, type);
+    this.flavor = flavor;
+  }
+
+  public SpecialtyCoffee(String size, boolean isSkinny, int shots, String type, String flavor)
+  {
+    super(size, isSkinny, shots, type);
+    this.flavor = flavor;
+  }
+
+  // Method override of Coffee getPrice
+  public int getPrice()
+  {
+    // we will edit in class
+    return 0;
+  }
+
+  // Method override of Coffee toString
+  public String toString()
+  {
+    // we will edit in class
+    return null;
+  }
