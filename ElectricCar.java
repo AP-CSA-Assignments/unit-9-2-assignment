@@ -7,9 +7,9 @@ public class ElectricCar extends Car {
 	}
 
 	// Override getFuelLevel
-	// Reinterprets fuelLevel() as a percentage
+	// Reinterprets getFuelLevel() as a percentage
 	// Remember super.getFuelLevel will return fuelLevel!
-	public double fuelLevel()
+	public double getFuelLevel()
 	{
 		return 0.0;
 	}
